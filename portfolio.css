@@ -288,10 +288,6 @@ footer p {
   color: black;
 }
 
-@media screen and (min-width: 768px) {
-  .header__container {
-    min-width: 600px;
-  }
 
   header {
     padding-bottom: 4rem;
@@ -423,47 +419,6 @@ footer p {
   }
 }
 
-
-
-@media screen and (min-width: 1024px) {
-  .navbar,
-  .navbar__ul,
-  .header__container {
-    display: flex;
-  }
-  .navbar {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .navbar__ul {
-    flex-direction: row;
-  }
-
-  .navbar__ul li {
-    background-color: transparent;
-  }
-
-  .navbar__ul .link {
-    margin: 0;
-  }
-
-  .header__container {
-    flex-direction: row-reverse;
-    margin-bottom: 15px;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .header__container img {
-    max-width: 330px;
-  }
-
-  .header__text {
-    max-width: 400px;
-    text-align: center;
-  }
-
   /* Portfolio  */
   .portfolio__container {
     flex-direction: row;
@@ -485,4 +440,3 @@ footer p {
     font-weight: 200;
   }
  
-}
